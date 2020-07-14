@@ -5,7 +5,7 @@ date:   2020-07-14 16:00:00 +0700
 categories: 
 ---
 
-Pecahan terkecil, 1.000. Pecahan terbesar, 100.000. *Berapa pecahan terkecil yang dibutuhkan untuk disimpan?*
+Pecahan terkecil, 1.000. Pecahan terbesar, 100.000. **Berapa pecahan terkecil yang dibutuhkan untuk disimpan?**
 1 lembar 1.000
 2 lembar 2.000
 1 lembar 5.000
