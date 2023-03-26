@@ -1,0 +1,34 @@
+---
+layout: 
+title:  "Ukuran Baju Haflah"
+date:   2020-10-21 14:00:00 +0700
+categories: 
+---
+<div class="container d-flex align-items-center" style="min-height: 100vh;">
+  <form class="w-100" netlify>
+    <div class="form-group">
+      <label for="nama">Halo, dengan siapa ini?</label>
+      <input list="nama2" name="nama" id="nama" type="text" class="form-control">
+      <small class="form-text text-muted">Pake nama asli yaa...</small>
+      <datalist id="nama2">
+        <option value="Muhammad Hizbu Hanifan Azka"></option>
+      </datalist>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+<script>
+  // Get HTML head element 
+  var head = document.getElementsByTagName('HEAD')[0];  
+  // Create new link Element 
+  var link = document.createElement('link'); 
+  // set the attributes for link element  
+  link.rel = 'stylesheet';  
+
+  link.type = 'text/css'; 
+
+  link.href = '/assets/css/bootstrap.min.css';  
+  // Append link element to HTML head 
+  head.appendChild(link);  
+</script>
